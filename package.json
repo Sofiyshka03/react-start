@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Sofiyshka03.github.io/Muse",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@radix-ui/react-slider": "^1.1.2",
