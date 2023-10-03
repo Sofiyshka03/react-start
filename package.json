@@ -27,5 +27,31 @@
   },
   "devDependencies": {
     "gh-pages": "^6.0.0"
+  },
+  "github-pages": {
+    "api": {
+      "version": "3.0.0",
+      "protocol": "https",
+      "host": "api.github.com",
+      "pathPrefix": "",
+      "timeout": 5000
+    },
+    "auth": {
+      "type": "token",
+      "token": "GH_TOKEN"
+    },
+    "remote": {
+      "user": "user",
+      "repo": "repo",
+      "ref": "heads/gh-pages"
+    },
+    "commit": {
+      "message": "commit made by me",
+      "author": {
+        "name": "author-name",
+        "email": "author-email"
+      }
+    },
+    "src": "./data"
   }
 }
